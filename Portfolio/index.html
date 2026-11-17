@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Mugdha Jagtap – Software Developer, Data Analyst & AI Enthusiast. Explore my projects, skills, and certifications." />
+  <meta name="keywords"
+    content="Mugdha Jagtap, Software Developer, Data Analyst, AI, Machine Learning, MCA, Portfolio" />
+  <meta name="author" content="Mugdha Jagtap" />
+  <meta property="og:title" content="Mugdha Jagtap | Portfolio" />
+  <meta property="og:description" content="Software Developer · Data Analyst · AI Enthusiast" />
+  <title>Mugdha Jagtap | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Urbanist:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Ambient Orbs -->
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+  <div class="orb orb-3" aria-hidden="true"></div>
+
+  <!-- ============================================
+     NAVBAR
+============================================ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="nav-logo" href="#hero" aria-label="Go to top">MJ</a>
+        <ul class="nav-links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" role="button" aria-label="Toggle mobile menu" aria-expanded="false"
+          tabindex="0">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#skills" class="mobile-nav-link">Skills</a>
+    <a href="#projects" class="mobile-nav-link">Projects</a>
+    <a href="#education" class="mobile-nav-link">Education</a>
+    <a href="#certifications" class="mobile-nav-link">Certs</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <!-- ============================================
+     HERO SECTION
+============================================ -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left Content -->
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span class="dot"></span>
+            MCA Student · Open to Opportunities
+          </div>
+
+          <h1 class="hero-name reveal reveal-delay-1">
+            <span class="first">Mugdha</span><br />
+            <span class="last">Jagtap</span>
+          </h1>
+
+          <div class="hero-roles reveal reveal-delay-2">
+            <span class="hero-role-tag">⚡ Software Developer</span>
+            <span class="hero-role-tag">📊 Data Analyst</span>
+            <span class="hero-role-tag">🤖 AI Enthusiast</span>
+          </div>
+
+          <p class="hero-desc reveal reveal-delay-3">
+            MCA student with a strong foundation in full‑stack web development, data analytics, and artificial
+            intelligence — passionate about building real‑world, scalable, and data-driven applications.
+          </p>
+
+          <div class="hero-buttons reveal reveal-delay-4">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+              View My Projects
+            </a>
+            <a href="Mugdhaa_Resume.pdf" download class="btn btn-outline">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-stats reveal reveal-delay-5">
+            <div class="hero-stat">
+              <span class="hero-stat-value">6+</span>
+              <span class="hero-stat-label">Projects</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">3</span>
+              <span class="hero-stat-label">Certifications</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">7.42</span>
+              <span class="hero-stat-label">CGPA (MCA)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual -->
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="profile-ring">
+            <img src="images/Mugdha Image.jpeg" alt="Mugdha Jagtap" class="profile-img"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="profile-fallback" style="display:none;">MJ</div>
+          </div>
+
+          <div class="float-badge float-badge-1">
+            <span class="icon">🤖</span>
+            <span>AI & ML</span>
+          </div>
+          <div class="float-badge float-badge-2">
+            <span class="icon">⚛️</span>
+            <span>React &amp; Node</span>
+          </div>
+          <div class="float-badge float-badge-3">
+            <span class="icon">📊</span>
+            <span>Data Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">Scroll</div>
+  </section>
+
+  <!-- ============================================
+     ABOUT SECTION
+============================================ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Visual Card -->
+        <div class="about-visual reveal">
+          <div class="about-card">
+            <p
+              style="font-size:0.8rem;text-transform:uppercase;letter-spacing:2px;color:var(--clr-primary);font-weight:600;margin-bottom:12px;">
+              Career Interests</p>
+            <div class="about-interests">
+              <span class="interest-tag">🤖 Artificial Intelligence</span>
+              <span class="interest-tag">🧠 Machine Learning</span>
+              <span class="interest-tag">📊 Data Science</span>
+              <span class="interest-tag">📈 Data Analytics</span>
+              <span class="interest-tag">🌐 Full-Stack Dev</span>
+              <span class="interest-tag">☁️ Cloud Technologies</span>
+              <span class="interest-tag">🗄️ SQL & Databases</span>
+              <span class="interest-tag">⚙️ REST APIs</span>
+            </div>
+
+            <div class="divider" style="margin:28px 0 20px;"></div>
+
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="info-label">Degree</span>
+                <span class="info-value">MCA (Masters)</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">University</span>
+                <span class="info-value">MIT World Peace Univ.</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location</span>
+                <span class="info-value">Pune, India</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email</span>
+                <span class="info-value" style="font-size:0.8rem;">muggjagtap@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Languages</span>
+                <span class="info-value">English, Hindi, Marathi</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Status</span>
+                <span class="info-value" style="color:var(--clr-accent);">Open to Work ✓</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text Content -->
+        <div class="about-text">
+          <div class="section-label reveal">About Me</div>
+          <h2 class="section-title reveal reveal-delay-1">
+            Building the Future with<br />
+            <span class="gradient-text">Code &amp; Data</span>
+          </h2>
+
+          <div class="reveal reveal-delay-2">
+            <p>
+              I'm <span class="highlight">Mugdha Jagtap</span>, an MCA student at MIT World Peace University, Pune, with
+              a passion for building
+              impactful digital solutions. My journey spans <span class="highlight">full-stack web development</span>,
+              data analytics, and an ever-growing curiosity
+              for artificial intelligence and machine learning.
+            </p>
+            <p>
+              With hands-on experience in technologies like <span class="highlight">React.js, Node.js, Express.js, and
+                MongoDB</span>, I enjoy building
+              complete applications from idea to deployment. On the data side, I work with <span
+                class="highlight">Python, Pandas, SQL, and Power BI</span>
+              to analyze, visualize, and derive insights from data.
+            </p>
+            <p>
+              I am a strong believer in continuous learning — especially in cloud technologies, scalable architecture
+              design, and
+              applying AI/ML to real-world problems. Outside of coding, I value <span class="highlight">leadership,
+                teamwork, and adaptability</span>
+              as much as technical expertise.
+            </p>
+          </div>
+
+          <div class="reveal reveal-delay-3" style="margin-top:28px;">
+            <a href="#contact" class="btn btn-primary">
+              Get In Touch
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+     SKILLS SECTION
+============================================ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="skills-header">
+        <div>
+          <div class="section-label reveal">Technical Skills</div>
+          <h2 class="section-title reveal reveal-delay-1">My Tech <span class="gradient-text">Stack</span></h2>
+        </div>
+        <p class="section-desc reveal" style="text-align:right; max-width:280px;">Technologies I work with to bring
+          ideas to life.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Programming Languages -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-purple">💻</div>
+            <span class="skill-cat-title">Programming Languages</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+          </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-teal">🎨</div>
+            <span class="skill-cat-title">Frontend Development</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Responsive Design</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-pink">⚙️</div>
+            <span class="skill-cat-title">Backend &amp; Frameworks</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Django</span>
+          </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-blue">🗄️</div>
+            <span class="skill-cat-title">Databases</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">SQL Queries</span>
+            <span class="skill-tag">Database Design</span>
+          </div>
+        </div>
+
+        <!-- Data & Analytics -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-orange">📊</div>
+            <span class="skill-cat-title">Data &amp; Analytics</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">NLP / TF-IDF</span>
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">Google Colab</span>
+            <span class="skill-tag">Microsoft Excel</span>
+          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-green">🛠️</div>
+            <span class="skill-cat-title">Tools &amp; Platforms</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">QR Technology</span>
+            <span class="skill-tag">API Integration</span>
+            <span class="skill-tag">CRUD Operations</span>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category reveal reveal-delay-2" style="grid-column: 1 / -1; max-width:600px;">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-purple">🌟</div>
+            <span class="skill-cat-title">Soft Skills</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Teamwork</span>
+            <span class="skill-tag">Adaptability</span>
+            <span class="skill-tag">Decision Making</span>
+            <span class="skill-tag">Time Management</span>
+            <span class="skill-tag">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+     PROJECTS SECTION
+============================================ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="projects-header">
+        <div class="section-label reveal">Featured Work</div>
+        <h2 class="section-title reveal reveal-delay-1">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-desc reveal reveal-delay-2">A collection of projects spanning AI, full-stack development, and
+          data analytics — each built to solve real problems.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: AI Teaching Co-Pilot -->
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon icon-purple">🤖</div>
+          </div>
+          <div class="project-type">EdTech · AI</div>
+          <div class="project-name">AI Teaching Co‑Pilot for Educators</div>
+          <p class="project-desc">A smart AI assistant designed to streamline lesson planning, automate quiz generation,
+            and provide real-time feedback to educators.</p>
+          <ul class="project-features">
+            <li>AI-powered lesson planning and content creation</li>
+            <li>Voice-to-lesson conversion with real-time AI feedback</li>
+            <li>Personalized learning paths and automated assessments</li>
+            <li>Performance insights and analytics for students</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">AI</span>
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">MongoDB</span>
+          </div>
+          <div class="project-period">📅 Nov 2025 – Present</div>
+        </div>
+
+        <!-- Project 2: GramQuest -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-top">
+            <div class="project-icon icon-teal">🎮</div>
+          </div>
+          <div class="project-type">EdTech · Gamification</div>
+          <div class="project-name">GramQuest – Gamified Offline Learning</div>
+          <p class="project-desc">An offline-first learning platform converting NCERT content into QR-based gamified
+            modules accessible in low-bandwidth environments.</p>
+          <ul class="project-features">
+            <li>QR-based gamified NCERT content modules</li>
+            <li>Offline sync with low-bandwidth architecture</li>
+            <li>Multilingual support for wider reach</li>
+            <li>Points, badges &amp; leaderboards for engagement</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">QR Technology</span>
+            <span class="tech-badge">Gamification</span>
+            <span class="tech-badge">Offline-First</span>
+          </div>
+          <div class="project-period">📅 Sept 2025 – Present</div>
+        </div>
+
+        <!-- Project 3: Student Management System -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-top">
+            <div class="project-icon icon-blue">🎓</div>
+          </div>
+          <div class="project-type">Full-Stack · MERN</div>
+          <div class="project-name">Student Management System</div>
+          <p class="project-desc">A full-stack MERN application for managing student records with complete CRUD
+            operations and a professional development workflow.</p>
+          <ul class="project-features">
+            <li>React.js frontend with responsive UI</li>
+            <li>RESTful API backend with Node.js &amp; Express</li>
+            <li>MongoDB database with CRUD operations</li>
+            <li>Git/GitHub-based version control workflow</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">MongoDB</span>
+          </div>
+          <div class="project-period">📅 Oct 2026 – Present</div>
+        </div>
+
+        <!-- Project 4: Expense Tracking -->
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon icon-orange">💰</div>
+          </div>
+          <div class="project-type">Data Analytics · Python</div>
+          <div class="project-name">Personal Expense Tracking &amp; Analysis</div>
+          <p class="project-desc">A data analytics project to analyze spending habits, identify expense patterns, and
+            generate visual reports for better budgeting decisions.</p>
+          <ul class="project-features">
+            <li>Cleaned and organized transaction data for analysis</li>
+            <li>Visual reports: monthly expenses vs budget</li>
+            <li>Identified high-spending categories and saving opportunities</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">Microsoft Excel</span>
+            <span class="tech-badge">Jupyter Notebook</span>
+          </div>
+          <div class="project-period">📅 Sep 2026 – Oct 2026</div>
+        </div>
+
+        <!-- Project 5: Sentiment Analysis -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-top">
+            <div class="project-icon icon-pink">🧠</div>
+          </div>
+          <div class="project-type">Machine Learning · NLP</div>
+          <div class="project-name">Sentiment Analysis of Customer Reviews</div>
+          <p class="project-desc">Applied NLP and machine learning to classify customer reviews as positive or negative,
+            with performance evaluation and visualization.</p>
+          <ul class="project-features">
+            <li>Cleaned and preprocessed review text data</li>
+            <li>TF-IDF vectorization for feature extraction</li>
+            <li>ML classification model for sentiment prediction</li>
+            <li>Visualized sentiment patterns from results</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">Scikit-learn</span>
+            <span class="tech-badge">TF-IDF</span>
+            <span class="tech-badge">Google Colab</span>
+          </div>
+          <div class="project-period">📅 Jul 2026</div>
+        </div>
+
+        <!-- Project 6: GENZ Slang Dictionary -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-top">
+            <div class="project-icon icon-green">📖</div>
+          </div>
+          <div class="project-type">Web App · API Integration</div>
+          <div class="project-name">GenZ Slang Dictionary App</div>
+          <p class="project-desc">A fun, responsive dictionary app leveraging a live dictionary API to fetch real-time
+            meanings and usage examples for modern slang.</p>
+          <ul class="project-features">
+            <li>Real-time definitions via Dictionary API</li>
+            <li>Responsive UI with optimized search performance</li>
+            <li>Efficient database for fast retrieval</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">API Integration</span>
+            <span class="tech-badge">Responsive UI</span>
+          </div>
+          <div class="project-period">📅 May 2025</div>
+        </div>
+
+      </div><!-- /projects-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================
+     EDUCATION SECTION
+============================================ -->
+  <section id="education" class="section">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:60px;">
+        <div class="section-label reveal" style="justify-content:center;">Academic Background</div>
+        <h2 class="section-title reveal reveal-delay-1">My <span class="gradient-text">Education</span></h2>
+        <p class="section-desc reveal reveal-delay-2" style="margin:0 auto;">Building a strong academic foundation in
+          computer science and technology.</p>
+      </div>
+
+      <div class="education-grid">
+        <!-- MCA -->
+        <div class="edu-card reveal">
+          <div class="edu-card-top">
+            <div class="edu-degree-icon icon-purple">🎓</div>
+            <div class="edu-cgpa">
+              <div class="edu-cgpa-value">7.42</div>
+              <div class="edu-cgpa-label">GPA</div>
+            </div>
+          </div>
+          <div class="edu-degree">Masters of Computer Application (MCA)</div>
+          <div class="edu-institute">MIT World Peace University, Pune</div>
+          <span class="edu-year">📅 Jul 2025 – Present</span>
+        </div>
+
+        <!-- BCA -->
+        <div class="edu-card reveal reveal-delay-1">
+          <div class="edu-card-top">
+            <div class="edu-degree-icon icon-teal">📚</div>
+            <div class="edu-cgpa">
+              <div class="edu-cgpa-value">7.11</div>
+              <div class="edu-cgpa-label">CGPA</div>
+            </div>
+          </div>
+          <div class="edu-degree">Bachelors of Computer Application (BCA)</div>
+          <div class="edu-institute">Indira College, Pune</div>
+          <span class="edu-year">📅 Jun 2022 – Jun 2025</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+     CERTIFICATIONS SECTION
+============================================ -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:60px;">
+        <div class="section-label reveal" style="justify-content:center;">Credentials</div>
+        <h2 class="section-title reveal reveal-delay-1">Certifications &amp; <span
+            class="gradient-text">Achievements</span></h2>
+        <p class="section-desc reveal reveal-delay-2" style="margin:0 auto;">Industry-recognized certifications that
+          validate my professional skills.</p>
+      </div>
+
+      <div class="certs-grid">
+        <!-- Deloitte -->
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap icon-blue">📊</div>
+          <div class="cert-info">
+            <div class="cert-issuer">Deloitte</div>
+            <div class="cert-name">Data Analytics Job Simulation</div>
+            <span class="cert-badge">✓ Completed</span>
+          </div>
+        </div>
+
+        <!-- Forage -->
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon-wrap icon-purple">🔬</div>
+          <div class="cert-info">
+            <div class="cert-issuer">Forage</div>
+            <div class="cert-name">Data Science Job Simulation</div>
+            <span class="cert-badge">✓ Completed</span>
+          </div>
+        </div>
+
+        <!-- White &amp; Case -->
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-icon-wrap icon-teal">🕐</div>
+          <div class="cert-info">
+            <div class="cert-issuer">White &amp; Case</div>
+            <div class="cert-name">US Time Management &amp; Business Communication Skills Job Simulation</div>
+            <span class="cert-badge">✓ Completed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+     CONTACT SECTION
+============================================ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Left Info -->
+        <div>
+          <div class="section-label reveal">Get In Touch</div>
+          <h2 class="section-title reveal reveal-delay-1">Let's Work <span class="gradient-text">Together</span></h2>
+          <p class="reveal reveal-delay-2" style="color:var(--clr-text-muted);line-height:1.8;margin-bottom:36px;">
+            I'm open to internships, full-time roles, project collaborations, and freelance opportunities. Whether you
+            have a question or just want to say hello — my inbox is always open!
+          </p>
+
+          <div class="contact-links reveal reveal-delay-3">
+            <a class="contact-link" href="mailto:muggjagtap@gmail.com">
+              <div class="contact-link-icon icon-purple">✉️</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">Email</div>
+                <div class="contact-link-value">muggjagtap@gmail.com</div>
+              </div>
+              <span class="contact-link-arrow">→</span>
+            </a>
+
+            <a class="contact-link" href="https://linkedin.com/in/mugdha-jagtap-432130249/" target="_blank"
+              rel="noopener noreferrer">
+              <div class="contact-link-icon icon-blue">💼</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">LinkedIn</div>
+                <div class="contact-link-value">linkedin.com/in/mugdha-jagtap-432130249</div>
+              </div>
+              <span class="contact-link-arrow">→</span>
+            </a>
+
+            <a class="contact-link" href="https://github.com/Mugdhaa03" target="_blank" rel="noopener noreferrer">
+              <div class="contact-link-icon icon-green">⚡</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">GitHub</div>
+                <div class="contact-link-value">github.com/Mugdhaa03</div>
+              </div>
+              <span class="contact-link-arrow">→</span>
+            </a>
+
+
+          </div>
+        </div>
+
+        <!-- Right Form -->
+        <div class="contact-form-wrap reveal reveal-delay-1">
+          <div class="form-title">Send Me a Message 💬</div>
+          <form id="contactForm" onsubmit="handleFormSubmit(event)" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-name">Your Name</label>
+                <input type="text" id="cf-name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="cf-email">Your Email</label>
+                <input type="email" id="cf-email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cf-subject">Subject</label>
+              <input type="text" id="cf-subject" name="subject"
+                placeholder="Internship / Project Collaboration / Hello 👋" required />
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message"
+                placeholder="Tell me about your project, opportunity, or just say hi..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+              Send Message
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✅ Your message has been prepared! Opening your email client...
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+     FOOTER
+============================================ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Mugdha Jagtap</div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/mugdha-jagtap-432130249/" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+          </a>
+          <a href="https://github.com/Mugdhaa03" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+            </svg>
+          </a>
+          <a href="mailto:muggjagtap@gmail.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </a>
+        </div>
+        <p class="footer-copy">
+          &copy; 2026 Mugdha Jagtap. Crafted with 💜 &amp; lots of ☕ — All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================
+     JAVASCRIPT
+============================================ -->
+  <script src="script.js"></script>
+</body>
+
+</html>
